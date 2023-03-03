@@ -20,5 +20,5 @@ model UserExample {
 
 model UserBalance {
   id String @id
-  amount Decimal
+  amount Float
 }
