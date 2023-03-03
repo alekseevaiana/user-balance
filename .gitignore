@@ -107,3 +107,4 @@ dist
 # Redwood
 .redwood
 api/types
+web/types

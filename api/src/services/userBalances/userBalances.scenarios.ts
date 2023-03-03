@@ -3,8 +3,8 @@ import type { ScenarioData } from '@redwoodjs/testing/api'
 
 export const standard = defineScenario<Prisma.UserBalanceCreateArgs>({
   userBalance: {
-    one: { data: { id: 'String', amount: 9022108.326544391 } },
-    two: { data: { id: 'String', amount: 3792473.447553182 } },
+    one: { data: { id: 'String', amount: 5335721.010676968 } },
+    two: { data: { id: 'String', amount: 543325.8670523511 } },
   },
 })
 

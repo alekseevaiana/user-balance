@@ -7,7 +7,6 @@ import Alert from '@mui/material/Alert'
 import Card from '@mui/material/Card'
 import CircularProgress from '@mui/material/CircularProgress'
 
-import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
@@ -15,7 +14,7 @@ import Typography from '@mui/material/Typography'
 import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
 
 export const QUERY = gql`
-  query FindUserBalanceQuery($id: Int!) {
+  query FindUserBalanceQuery($id: String!) {
     userBalance: userBalance(id: $id) {
       id
       amount

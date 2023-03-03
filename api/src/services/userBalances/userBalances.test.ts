@@ -33,11 +33,11 @@ describe('userBalances', () => {
 
   scenario('creates a userBalance', async () => {
     const result = await createUserBalance({
-      input: { id: 'String', amount: 9911543.274831587 },
+      input: { id: 'String', amount: 4085313.801735351 },
     })
 
     expect(result.id).toEqual('String')
-    expect(result.amount).toEqual(new Prisma.Decimal(9911543.274831587))
+    expect(result.amount).toEqual(new Prisma.Decimal(4085313.801735351))
   })
 
   scenario('updates a userBalance', async (scenario: StandardScenario) => {
